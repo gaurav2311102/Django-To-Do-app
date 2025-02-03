@@ -1,0 +1,12 @@
+{% extends "todos/base.html" %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+<div class="text-center my-5">  
+    <h1 class="display-4">Welcome to <span class="blue-underline">DINCHARYA</span></h1>
+    <br>
+    <p class="lead">Organize your work and life, finally.</p> 
+    {% comment %} <img src="{% static 'images/todo.avif' %}" alt="Description of the image" > {% endcomment %}
+</div>
+{% endblock content %}
